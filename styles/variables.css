@@ -2,3 +2,25 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --title-main: #db00ff;
+  --shadow: #ff0070;
+  --accent: #ff0070;
+  --border: #ff0070;
+  --bg-main: #000028;
+  --text-main: #f1b2ce;
+  --text-accent: #000028;
+  --button-hover: rgb(255, 0, 112, 0.4);
+
+  --font-main: 'IBM Plex mono', monospace;
+
+  --font-size: 18px;
+  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-height: 82.5%;
+
+  --indent-section: 50px;
+  --indent-header: 40px;
+  --indent-text: 20px;
+  --indent-title: 10px;
+  --indent-page: 10px;
+}
